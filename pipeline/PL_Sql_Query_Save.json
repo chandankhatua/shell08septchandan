@@ -17,7 +17,7 @@
 				"typeProperties": {
 					"source": {
 						"type": "AzureSqlSource",
-						"sqlReaderQuery": "Select * from data_source_table where PersonID=2",
+						"sqlReaderStoredProcedureName": "[dbo].[staticSelectData]",
 						"queryTimeout": "02:00:00",
 						"partitionOption": "None"
 					},
@@ -44,7 +44,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "DS_SQL_Table",
+						"referenceName": "DS_SP",
 						"type": "DatasetReference"
 					}
 				],
