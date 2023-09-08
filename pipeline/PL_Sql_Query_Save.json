@@ -44,7 +44,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "DS_SP",
+						"referenceName": "DS_SQL_Input",
 						"type": "DatasetReference"
 					}
 				],
